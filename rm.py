@@ -18,7 +18,7 @@ def rangen():
     b = True
     nname = ''
     msg = ''
-    for i in range(7):
+    for i in range(15):
         nname+=random.choice(chars)
         msg+=random.choice(chars)
     setts["nickname"] = nname
